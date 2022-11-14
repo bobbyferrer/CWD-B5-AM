@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Colors and Buttons</title>
+</head>
+<body class="grey lighten-2">
+  <div class="navbar-fixed">
+    <nav class="transparent">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="" class="brand-logo grey-text text-darken-2">CWD Batch5</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="index.html" class="grey-text">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="grey-text">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="grey-text">Contact us</a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-trigger blue-grey-text" data-target="dropdown1">Click Me
+               <i class="material-icons right grey-text">arrow_drop_down</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Sidenav Structure -->
+  <ul id="slide-out" class="sidenav blue-grey">
+    <li class="active">
+      <a href="index.html" class="grey-text">Home
+        <i class="material-icons">home</i>
+      </a>
+    </li>
+    <li>
+      <a href="about.html" class="grey-text">About
+        <i class="material-icons">laptop</i>
+      </a>
+    </li>
+    <li>
+      <a href="contact.html" class="grey-text">Contact us
+        <i class="material-icons">launch</i>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="dropdown-trigger grey-text" data-target="dropdown1">Click Me
+       <i class="material-icons right grey-text">arrow_drop_down</i>
+      </a>
+    </li>
+  </ul>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content blue-grey lighten-2">
+    <li>
+      <a href="#">One</a>
+    </li>
+    <li>
+      <a href="#">Two</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">Three</a>
+    </li>
+  </ul>
+
+   <div class="container">
+      <!-- Background -->
+      <h2 class="grey-text text-darken-1">Colors</h2>
+      <h5 class="grey-text text-darken-1">Background Colors</h5>
+      <div class="card-panel teal lighten-2">
+        This is a card panel with a teal lighten-2 class
+      </div>
+      <div class="card-panel indigo lighten-2">
+        This is a card panel with a indigo lighten-2 class
+      </div>
+      <!-- Text Color -->
+      <h5 class="grey-text text-darken-1">Text Colors</h5>
+      <div class="card-panel">
+        <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+      </div>
+      <div class="card-panel purple lighten-2">
+        <span class="grey-text text-lighten-2">This is a card panel with lighten grey text</span>
+      </div>
+
+
+
+      <!-- Buttons -->
+      <h2 class="grey-text text-darken-1">Buttons</h2>
+      <!-- Raise Buttons -->
+      <h5 class="grey-text text-darken-1">Raise Buttons</h5>
+      <a class="btn amber waves-effect waves-light">button</a>
+      <a class="btn deep-purple waves-effect waves-light">
+        <i class="material-icons left">cloud</i>
+        button
+      </a>
+      <a class="btn deep-orange waves-effect waves-light">
+        <i class="material-icons right">cloud</i>
+        button
+      </a>
+      <!-- Floating -->
+      <h5 class="grey-text text-darken-1">Floating</h5>
+      <a class="btn-floating btn-large waves-effect waves-light red pulse">
+        <i class="material-icons">add</i>
+      </a>
+      <!-- Flat button -->
+      <h5 class="grey-text text-darken-1">Flat</h5>
+      <a class="btn-flat waves-effect waves-teal">Button</a>
+      <!-- Submit buttom -->
+      <h5 class="grey-text text-darken-1">Submit Button</h5>
+      <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+
+      <!-- Large -->
+      <h5 class="grey-text text-darken-1">Large Buttons</h5>
+      <a class="btn amber waves-effect waves-light btn-large">button</a>
+      <!-- Small -->
+      <h5 class="grey-text text-darken-1">Small Buttons</h5>
+      <a class="btn yellow waves-effect waves-light btn-small">button</a>
+      <!-- Disabled -->
+      <h5 class="grey-text text-darken-1">Disabled Buttons</h5>
+      <a class="btn yellow waves-effect waves-light btn-small disabled">button</a>
+
+
+
+      <!-- Floating action button -->
+      <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large red">
+          <i class="material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li>
+            <a class="red">
+              <i class="material-icons">insert_chart</i>
+            </a>
+          </li>
+          <li>
+            <a class="green">
+              <i class="material-icons">insert_chart</i>
+            </a>
+          </li>
+          <li>
+            <a class="blue">
+              <i class="material-icons">insert_chart</i>
+            </a>
+          </li>
+          <li>
+            <a class="yellow">
+              <i class="material-icons">insert_chart</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+   </div>
+
+   <div class="container">
+      <!-- Media CSS -->
+      <!-- Responsive Image -->
+      <h4 class="grey-text text-darken-1">Responsive Image</h4>
+      <div class="row">
+        <div class="col s12 m3 l4">
+         <img src="images/img9.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col s12 m3 l4">
+          <img src="images/img10.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col s12 m3 l4">
+          <img src="images/img11.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col s12 m3 hide-on-large-only">
+          <img src="images/img12.jpg" alt="" class="responsive-img">
+        </div>
+      </div>
+      <!-- Responsive Embeds -->
+      <h4 class="grey-text text-darken-1">Responsive Embeds</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="video-container">
+            <iframe width="1040" height="585" src="https://www.youtube.com/embed/8t6h3wid0Pg" title="[Playlist] 2 Hour Acoustic Music To Start Your Day | KIRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="video-container">
+            <iframe width="1040" height="585" src="https://www.youtube.com/embed/wItmvdnXmJM" title="Top Hits Acoustic Songs 2022 Collection - Tiktok Trending Songs Acoustic cover" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <video class="responsive-video" controls>
+            <source src="videos/movie.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+   </div>
+
+  <!-- materialboxed -->
+  <div class="">
+    <h4 class="grey-text text-darken-1">Material boxed</h4>
+  </div>
+   <section class="section grey lighten-4">
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="images/img11.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, labore iste. Alias facilis modi eligendi atque illo iusto harum, velit voluptate, repudiandae ratione eum et, consequatur inventore provident ab neque.</p>
+        </div>
+        <div class="col s12 m3">
+          <img src="images/img10.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, labore iste. Alias facilis modi eligendi atque illo iusto harum, velit voluptate, repudiandae ratione eum et, consequatur inventore provident ab neque.</p>
+        </div>
+      </div>
+
+
+      <!-- Slider -->
+      <h4 class="grey-text text-darken-1">Slider</h4>
+      <div class="row">
+        <div class="col s12">
+           <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="images/img11.jpg" alt="">
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-4">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/img12.jpg" alt="">
+                <div class="caption left-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-4">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/img13.jpg" alt="">
+                <div class="caption right-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-4">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </div>
+   </section>
+
+   <button class="button">Click me</button>
+   <button class="btn waves-effect red pulse">Click me</button>
+   <button class="button">Click me</button>
+   
+  
+  
+
+  <!-- Sidenav, Initialization, options-->
+
+
+  <div style="height: 500px;"></div>
+
+   <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+ <script>
+  $(document).ready(function() {
+    // Fixed action button Init
+    $('.fixed-action-btn').floatingActionButton({
+      hoverEnabled: false,
+      toolbarEnabled: true
+    });
+    // dropdown init
+    $('.dropdown-trigger').dropdown();
+    // Sidenav init
+    $('.sidenav').sidenav({
+      edge: 'right',
+      inDuration: 1000,
+      outDuration: 1000,
+      preventScrolling: false
+    });
+    // materialbox
+    $('.materialboxed').materialbox({
+      inDuration: 1000,
+      outDuration: 1000
+    });
+
+    // Slider init
+    $('.slider').slider({
+      indicators: false,
+      height: 450,
+      duration: 2000,
+      interval: 6000
+    });
+  });
+
+
+
+        
+ </script>
+</body>
+</html>
